@@ -30,30 +30,51 @@ const ProjectsComponent = () => {
         <SingleProject
           image="/projects/react_webshop.png"
           title="React Webshop Backend"
-          description="A backend for the React webshop, built with Node.js and Express.js"
+          description="A backend for the React webshop, built with Node.js, Express.js and MongoDB"
           demo="none"
           github="https://github.com/JosipSudar/easymart_backend"
         />
         <SingleProject
           image="/projects/todo_react.png"
           title="React Todo App"
-          description="A simple TODO app built with React, that allows the user to add and remove tasks"
+          description="A TODO app built with React, that allows the user to add and remove tasks done with Spring Boot as a backend connected virtually with a docker container"
           demo="https://todo-app-sable-one.vercel.app/"
           github="https://github.com/JosipSudar/todo-app"
         />
         <SingleProject
           image="/projects/react_chat-app.png"
           title="React Chat App"
-          description="A simple chat app built with React, that allows the user to join and send messages"
+          description="A simple chat app built with React, that allows the user to join and send messages done with chat engine"
           demo="https://chat-pmk4vyjv3-josipsudars-projects.vercel.app/"
           github="hhttps://github.com/JosipSudar/Chat-app"
         />
         <SingleProject
           image="/projects/recipe_react.png"
           title="React Recipe App"
-          description="A simple recipe app built with React, that allows the user to search and view recipes"
+          description="A simple recipe app built with React and Firebase, that allows the user to search and view recipes and save them "
           demo="https://recipe-finder-l366qanys-josipsudars-projects.vercel.app/"
           github="https://github.com/JosipSudar/recipe-finder"
+        />
+        <SingleProject
+          image="/projects/resturant_react.png"
+          title="React Resturant App"
+          description="A simple resturant app built with React, that allows the user to view menus and make orders"
+          demo="https://restaurant-landing-page-eosin.vercel.app/"
+          github="https://github.com/JosipSudar/restaurant-landing-page"
+        />
+        <SingleProject
+          image="/projects/today_news-react.png"
+          title="React Today News App"
+          description="Landing page for a news app built with React"
+          demo="https://today-news-landing-page-update-1qhv64rpb-josipsudars-projects.vercel.app/"
+          github="https://github.com/JosipSudar/today-news-landing-page-update"
+        />
+        <SingleProject
+          image="/projects/nextjs_landing.png"
+          title="Next.js Landing Page"
+          description="A landing page built with Next.js, that allows the user to see the projects"
+          demo="https://nextjs-photo-yt-pi.vercel.app/"
+          github="https://github.com/JosipSudar/nextjs-photo-yt"
         />
       </div>
     </section>

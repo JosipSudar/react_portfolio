@@ -3,7 +3,11 @@ import PropTypes from "prop-types";
 const SingleProject = ({ image, title, description, demo, github }) => {
   return (
     <div className="space-y-3 border-2">
-      <img src={image} alt="cover_image" className="w-full h-[300px]" />
+      <img
+        src={image}
+        alt="cover_image"
+        className="w-full h-[300px] object-cover"
+      />
       <h1 className="text-3xl font-bold p-4">{title}</h1>
       <p className="text-xl p-4">{description}</p>
       <div className="flex">

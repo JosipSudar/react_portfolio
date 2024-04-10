@@ -13,7 +13,9 @@ const HeroComponent = () => {
         <div className="w-1/2 p-16">
           <div className=" space-y-2">
             <h1 className="text-6xl font-bold">Hi, I'm Josip</h1>
-            <h2 className="text-3xl font-bold">I'm a Fullstack Developer</h2>
+            <h2 className="text-3xl font-bold">
+              A Fullstack Developer based in Šibenik, Croatia
+            </h2>
             <p className="text-2xl font-semibold">
               This is my portfolio site for all my projects
             </p>

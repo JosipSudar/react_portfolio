@@ -11,11 +11,11 @@ const ContactComponent = () => {
           <div className="text-2xl space-y-2">
             <p>
               <MdEmail className="inline mr-2" />
-              email: 9kqGv@example.com
+              email: josip.sudar@gmail.com
             </p>
             <p>
               <FaPhoneAlt className="inline mr-2" />
-              phone: +385 98 123 456
+              phone: +385 95 575 8719
             </p>
           </div>
         </div>
