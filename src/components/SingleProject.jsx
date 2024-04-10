@@ -6,7 +6,7 @@ const SingleProject = ({ image, title, description, demo, github }) => {
       <img
         src={image}
         alt="cover_image"
-        className="w-full h-[300px] object-cover"
+        className="w-full h-[300px] md:object-cover object-fill"
       />
       <h1 className="text-3xl font-bold p-4">{title}</h1>
       <p className="text-xl p-4">{description}</p>
