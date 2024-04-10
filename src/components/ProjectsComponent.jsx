@@ -5,7 +5,7 @@ const ProjectsComponent = () => {
     <section className="text-center m-10 max-w-[1200px] mx-auto" id="projects">
       <h1 className="text-7xl font-bold mb-10">Projects</h1>
       <p className="text-3xl">Here are some of my projects</p>
-      <div className="grid grid-cols-2 m-20 gap-10">
+      <div className="md:grid md:grid-cols-2 m-20 gap-10 flex flex-col space-y-5 md:space-y-0">
         <SingleProject
           image="/projects/webshop-html_css_js.png"
           title="HTML CSS JS Webshop"

@@ -4,8 +4,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 const ContactComponent = () => {
   return (
     <div className="bg-gradient-to-r from-blue-500 to-pink-500" id="contact">
-      <section className=" max-w-[1200px] mx-auto pt-48 flex">
-        <div className="w-1/2 space-y-3">
+      <section className=" max-w-[1200px] mx-auto pt-48 flex flex-col md:flex text-center md:text-start space-y-6 md:flex-row">
+        <div className="md:w-1/2 space-y-3">
           <h1 className="text-7xl font-bold p-10">Contact</h1>
           <p className="text-3xl">Feel free to contact me</p>
           <div className="text-2xl space-y-2">
@@ -19,7 +19,7 @@ const ContactComponent = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white p-10 w-1/2 shadow-lg flex flex-col rounded-md space-y-5">
+        <div className="bg-white p-10 md:w-1/2 shadow-lg flex flex-col rounded-md space-y-5 m-4">
           <p className="text-3xl">Contact me</p>
           <p className="text-2xl">Or send me an email</p>
           <input
