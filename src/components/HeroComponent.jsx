@@ -22,10 +22,7 @@ const HeroComponent = () => {
           </div>
           <div className="flex justify-between m-10 flex-col lg:flex space-y-4 lg:flex-row lg:space-y-0">
             <button className="border-2 border-black p-2 hover:animate-pulse hover:bg-black hover:text-white transition duration-200 ease-in-out rounded-sm">
-              <a
-                href={`../assets/CV_Josip_Sudar.docx`}
-                download="Josip_Sudar_CV.docx"
-              >
+              <a href="/CV_Josip_Sudar.pdf" download="CV_Josip_Sudar.pdf">
                 Download Resume
               </a>
             </button>
